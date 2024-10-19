@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neurosynaptics Software User Manual</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color: rgb(4, 4, 146);">Emission scanner Pro Software User Manual V2.1</h1>
+        <p>Version: 2.1 | Date: 09 May 2024</p>
+    </header>
+
+    <nav>
+        <h2>Table of Contents</h2>
+        <ul>
+            <li><a href="#about">1. About Software</a></li>
+            <li><a href="#installation">2. Installation</a></li>
+            <ul>
+                <li><a href="#Application">2.1 Application</a></li>
+                <li><a href="#Connections">2.2 Required connections</a></li>
+            </ul>
+            <li><a href="#working">3. Working</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="section">
+        <h2>1. About Software</h2>
+        <p>Emission scanner Pro version 2.0 focuses on getting emission from the electronic devices and plot the heatmap on the desired emission place.</p>
+    </section>
+
+    <section id="installation" class="section">
+        <h2>2. Installation</h2>
+
+        <section id="Application">
+            <h3>2.1 Application</h3>
+            <p>Install the Emission scanner Pro software by running the setup file. Choose your preferred installation location.</p>
+        </section>
+
+        <section id="Connections">
+            <h3>2.2 Required connections</h3>
+            <p>After the installation, make sure your connected the pc to camera, scanning device using micro USB cable, spectrum analyzer using USB-B and probe to spectrum analyzer using antenna cable.</p>
+        </section>
+    </section>
+
+    <section id="working" class="section">
+        <h2>3. Working</h2>
+        <p>Steps for using the software:</p>
+        <ul>
+            <li>Select Ports – Choose the camera port for scanning and select port for scanning device (Typically the port names like "USB-SERIAL CH340" ). After that click on "Home" button after that click on "Next" button.</li>
+        </ul>    
+        <div style="display: flex; justify-content: center; align-items: center; height: 40vh;">
+            <img src="scrnsht.png" alt="Example Graph" width="650">
+        </div>        
+        <ul>
+            <li>Caliberarte probe – Select caliberation settings for probe caliberation (Setting -> configuration). then give a value to Z axis for the height.</li>
+        </ul>
+        <div style="display: flex; justify-content: center; align-items: center; height: 40vh;">
+            <img src="image.png" alt="Example Graph" width="650">
+        </div>  
+        <ul style="list-style-type: none;">
+            <li>     Select the desired probe from main the window and click on Test probe button. After the probe reach on a point, click on red reload button to back on previous position.</li>
+        </ul>
+        <div style="display: flex; justify-content: center; align-items: center; height: 40vh;">
+            <img src="image2.png" alt="Example Graph" width="650">
+        </div>  
+        <ul>
+            <li>Select BW – Select desired RBW and VBW values from the dropdown box, then click on "Set" button</li>
+        </ul>
+        <div style="display: flex; justify-content: center; align-items: center; height: 40vh;">
+            <img src="image3.png" alt="Example Graph" width="650">
+        </div>  
+            <li>Amplitude limit – Adjust the amplitude range on the y-axis (dB range).</li>
+            <li>Generate document – Create a document with the plotted graph.</li>
+            <li>Serial number – Assign a serial number for the graph in the document.</li>
+            <li>Average graph – The yellow graph represents the average from multiple files.</li>         
+        </ul>
+    </section>
+</body>
+</html>
